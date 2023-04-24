@@ -1,8 +1,13 @@
 import functions
 import PySimpleGUI as sg
 import time
+import os 
 
 sg.theme("Black")
+
+if not os.path.exists("todos_items.txt"):
+    with open("todos_items.txt", "w") as file:
+        pass
 
 clock_label = sg.Text("", key="clock")
 label = sg.Text("Type in a To-Do")
