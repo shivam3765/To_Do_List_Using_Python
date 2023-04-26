@@ -1,4 +1,3 @@
 Bye new car
-clean the bag
-learn django
 learn python
+learn django
